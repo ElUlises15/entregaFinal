@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div style={{ backgroundColor: "#4A235A", color: "#F4D03F" }}>
-      <Center fontSize="5xl" p="4">
+      <Center fontSize="5xl" p="4" as="i">
         Tienda de Ropa Aylen
       </Center>
       <Flex alignItems="center" paddingLeft="300">
@@ -40,7 +40,7 @@ function NavBar() {
               </Link>
             </MenuItem>
             <MenuItem backgroundColor={"#4A235A"}>
-              <Link to="/category/camisa">
+              <Link to="/category/remera">
                 <p>Remeras</p>
               </Link>
             </MenuItem>

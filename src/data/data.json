@@ -1,50 +1,50 @@
-[
-  {
-    "id": 1,
-    "imagen": "https://http2.mlstatic.com/D_NQ_NP_935313-MLA69755644044_062023-O.webp",
-    "categoria": "calzado",
-    "nombre": "Zapatillas De Basquet",
-    "descripcion": "Zapatillas Basquet Finders Playmaker Basket",
-    "precio": "58990"
-  },
-  {
-    "id": 2,
-    "imagen": "https://http2.mlstatic.com/D_NQ_NP_842065-MLA54964347178_042023-O.webp",
-    "categoria": "calzado",
-    "nombre": "Zapatillas De Basquet",
-    "descripcion": "Zapatillas De Basquet Finders Crazy Eight Basket",
-    "precio": "61990"
-  },
-  {
-    "id": 3,
-    "imagen": "https://http2.mlstatic.com/D_NQ_NP_778116-MLA53400960371_012023-O.webp",
-    "categoria": "pantalon",
-    "nombre": "Pantalon Sportstyle",
-    "descripcion": "Under Armour Pantalon Sportstyle Terry Jogger Man",
-    "precio": "40000"
-  },
-  {
-    "id": 4,
-    "imagen": "https://http2.mlstatic.com/D_NQ_NP_933209-MLA73554264001_122023-O.webp",
-    "categoria": "pantalon",
-    "nombre": "Pantalon Sportstyle",
-    "descripcion": "Pantalón Under Armour Ua Rival Terry Novelty Hombre Ng Go",
-    "precio": "47999"
-  },
-  {
-    "id": 5,
-    "imagen": "https://http2.mlstatic.com/D_NQ_NP_848780-MLA72825494808_112023-O.webp",
-    "categoria": "camisa",
-    "nombre": "Remera Sportstyle",
-    "descripcion": "Remera Manga Corta Under Armour",
-    "precio": "23900"
-  },
-  {
-    "id": 6,
-    "imagen": "https://http2.mlstatic.com/D_NQ_NP_727896-MLA72613748012_112023-O.webp",
-    "categoria": "camisa",
-    "nombre": "Remera Sportstyle",
-    "descripcion": "Remera Under Armour Training Tech 2.0 Youth Niños - Newsport",
-    "precio": "27830"
-  }
-]
+// [
+//   {
+//     "id": 1,
+//     "imagen": "https://http2.mlstatic.com/D_NQ_NP_935313-MLA69755644044_062023-O.webp",
+//     "categoria": "calzado",
+//     "nombre": "Zapatillas De Basquet",
+//     "descripcion": "Zapatillas Basquet Finders Playmaker Basket",
+//     "precio": "58990"
+//   },
+//   {
+//     "id": 2,
+//     "imagen": "https://http2.mlstatic.com/D_NQ_NP_842065-MLA54964347178_042023-O.webp",
+//     "categoria": "calzado",
+//     "nombre": "Zapatillas De Basquet",
+//     "descripcion": "Zapatillas De Basquet Finders Crazy Eight Basket",
+//     "precio": "61990"
+//   },
+//   {
+//     "id": 3,
+//     "imagen": "https://http2.mlstatic.com/D_NQ_NP_778116-MLA53400960371_012023-O.webp",
+//     "categoria": "pantalon",
+//     "nombre": "Pantalon Sportstyle",
+//     "descripcion": "Under Armour Pantalon Sportstyle Terry Jogger Man",
+//     "precio": "40000"
+//   },
+//   {
+//     "id": 4,
+//     "imagen": "https://http2.mlstatic.com/D_NQ_NP_933209-MLA73554264001_122023-O.webp",
+//     "categoria": "pantalon",
+//     "nombre": "Pantalon Sportstyle",
+//     "descripcion": "Pantalón Under Armour Ua Rival Terry Novelty Hombre Ng Go",
+//     "precio": "47999"
+//   },
+//   {
+//     "id": 5,
+//     "imagen": "https://http2.mlstatic.com/D_NQ_NP_848780-MLA72825494808_112023-O.webp",
+//     "categoria": "camisa",
+//     "nombre": "Remera Sportstyle",
+//     "descripcion": "Remera Manga Corta Under Armour",
+//     "precio": "23900"
+//   },
+//   {
+//     "id": 6,
+//     "imagen": "https://http2.mlstatic.com/D_NQ_NP_727896-MLA72613748012_112023-O.webp",
+//     "categoria": "camisa",
+//     "nombre": "Remera Sportstyle",
+//     "descripcion": "Remera Under Armour Training Tech 2.0 Youth Niños - Newsport",
+//     "precio": "27830"
+//   }
+// ]

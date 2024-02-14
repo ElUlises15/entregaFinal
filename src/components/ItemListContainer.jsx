@@ -1,25 +1,30 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { pedirInfo } from "../utils/PedirData";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 import { Flex, Box, Badge, Button } from "@chakra-ui/react";
+import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
   const [productos, setProductos] = useState([]);
   const { categoria } = useParams();
 
   useEffect(() => {
-    pedirInfo().then((res) => {
-      if (categoria) {
-        setProductos(res.filter((prod) => prod.categoria === categoria));
-      } else {
-        setProductos(res);
-      }
+    const db = getFirestore();
+    const itemsCollection = collection(db, "productos");
+
+    getDocs(itemsCollection).then((snapshot) => {
+      const docs = snapshot.docs.map((doc) => doc.data());
+      setProductos(docs);
     });
-  }, [categoria]);
+  }, []);
+
+  const filteredProducts = categoria
+    ? productos.filter((producto) => producto.categoria === categoria)
+    : productos;
 
   return (
     <Flex direction="column" justify="center" p={4}>
-      {productos.map((producto) => (
+      {filteredProducts.map((producto) => (
         <Box
           key={producto.id}
           m={4}
@@ -31,11 +36,10 @@ const ItemListContainer = () => {
           borderRadius="lg"
           overflow="hidden"
         >
-          {}
           <img
             src={producto.imagen}
             alt={producto.nombre}
-            style={{ width: "100%", height: "100%", objectFit: "hidden" }}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
           <Box p="6">
             <Box d="flex" alignItems="baseline">
@@ -54,7 +58,6 @@ const ItemListContainer = () => {
             <Box>{}</Box>
             <Link to={`/item/${producto.id}`}>
               <Button backgroundColor="#F4D03F" variant="solid" color="white">
-                {" "}
                 Ver detalles
               </Button>
             </Link>

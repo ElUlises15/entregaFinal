@@ -29,7 +29,7 @@ const ItemDetail = ({ item }) => {
               <p>Producto: {item.nombre}</p>
             </Heading>
             <Text color="#F4D03F">Categoría: {item.categoria}</Text>
-            <Text color="#F4D03F">Descripción: {item.descripcion}</Text>
+            <Text color="#F4D03F">Descripción: {item.descripción}</Text>
             <Text color="#F4D03F">Precio: ${item.precio}</Text>
           </Stack>
         </CardBody>
@@ -37,6 +37,7 @@ const ItemDetail = ({ item }) => {
           {}
           <ItemCount item={item} />
         </CardFooter>
+        <Divider />
       </Card>
     </Flex>
   );
